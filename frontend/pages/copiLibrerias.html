@@ -47,46 +47,18 @@
 
                 
             </div>
-            <div class="user-container">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="person" viewBox="0 0 16 16">
-                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
-                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    </svg></a>
-                    
-                    <form id="loginForm">
-                        <h2>Login</h2>
-                    <div class="input-container">
-                      <input type="email" id="correo" placeholder="Correo" autocomplete="username" required />
-                    </div>
-                    <div class="input-container">
-                     <input type="password" id="contraseña" placeholder="Contraseña" autocomplete="current-password" required>
-                    </div>
-                      <button class="login" type="submit">Iniciar sesión</button>
-                      <p>¿Nuevo usuario? <a href="#" id="mostrarRegistro" style="color: chartreuse;">Crea una cuenta</a></p>
-                    </form>
-
-                    
-                    <form id="registerForm">
-                        <h2>Registro</h2>
-                        <div class="input-container">
-                        <input type="text" id="nombre" placeholder="Nombre" required />
-                        </div>
-                        <div class="input-container">
-                        <input type="email" id="correo-reg" placeholder="Correo" autocomplete="username" required />
-                        </div>
-                        <div class="input-container">
-                        <input type="password" id="contraseña-reg" placeholder="Contraseña" autocomplete="new-password" required>
-                        </div>
-                        <select id="rol">
-                            <option value="1">Admin</option>
-                            <option value="2">Cliente</option>
-                        </select>
-                    <button class="login" type="submit">Registrar</button>
-                    <p>¿Ya tienes una cuenta? <a href="#" id="mostrarLogin" style="color: chartreuse;">Ingresa aquí</a></p>
-
-                    </form>
-            </div>
+            <div class="user-container" style="position: relative;">
+  <a href="#" id="personToggle">
+    <svg xmlns="http://www.w3.org/2000/svg" class="person" viewBox="0 0 16 16">
+      <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+    </svg>
+  </a>
+  <div id="userDropdown" class="user-dropdown">
+    <button id="logoutBtn">Cerrar sesión</button>
+    <p>¡Gracias por tu visita!</p>
+  </div>
+</div>
         </div>
     <nav>
         <ul>
