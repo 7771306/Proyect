@@ -1,3 +1,4 @@
+// frontend/js/register.js
 document.addEventListener('DOMContentLoaded', () => {
     const registerForm = document.getElementById('registerForm');
     const cerrarRegistro = document.getElementById('cerrarRegistro');

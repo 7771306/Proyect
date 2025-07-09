@@ -1,3 +1,4 @@
+// frontend/js/login.js
 document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
     const personIcon = document.querySelector('.person');

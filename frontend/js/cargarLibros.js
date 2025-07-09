@@ -1,3 +1,4 @@
+// frontend/js/cargarLibros.js
 function cargarLibros(categoriaId, elementoId) {
     const contenedor = document.getElementById(elementoId);
     
