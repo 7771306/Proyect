@@ -1,0 +1,236 @@
+<!--frontend/pages/universal.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/universal.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+        <a href="../index.html"><img src="/estilo/logo.png" class="logo" alt="logo"></a>
+        
+        
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar...">
+            <button type="submit" id="search-button">🔍</button>
+        </div>
+        <div id="contenedor-libros"></div>
+        <div class="user-actions">
+            <div class="cart-container">
+                <a href="#" id="carritoToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+                
+                <div id="carritoContainer" class="carrito-popup" style="display: none;">
+  <h2>Tu Carrito</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Libro</th>
+        <th>Precio</th>
+        <th>Cant.</th>
+        <th>Subtotal</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="carritoTabla"></tbody>
+  </table>
+  <div class="total-section">
+    <h3>Total: $<span id="totalCarrito">0</span></h3>
+    <button id="confirmarBtn">Confirmar Compra</button>
+  </div>
+</div>
+
+
+
+                
+            </div>
+            <div class="user-container">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="person" viewBox="0 0 16 16">
+                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    </svg></a>
+                    
+                    <form id="loginForm">
+                        <h2>Login</h2>
+                    <div class="input-container">
+                      <input type="email" id="correo" placeholder="Correo" autocomplete="username" required />
+                    </div>
+                    <div class="input-container">
+                     <input type="password" id="contraseña" placeholder="Contraseña" autocomplete="current-password" required>
+                    </div>
+                      <button class="login" type="submit">Iniciar sesión</button>
+                      <p>¿Nuevo usuario? <a href="#" id="mostrarRegistro" style="color: chartreuse;">Crea una cuenta</a></p>
+                    </form>
+
+                    
+                    <form id="registerForm">
+                        <h2>Registro</h2>
+                        <div class="input-container">
+                        <input type="text" id="nombre" placeholder="Nombre" required />
+                        </div>
+                        <div class="input-container">
+                        <input type="email" id="correo-reg" placeholder="Correo" autocomplete="username" required />
+                        </div>
+                        <div class="input-container">
+                        <input type="password" id="contraseña-reg" placeholder="Contraseña" autocomplete="new-password" required>
+                        </div>
+                        <select id="rol">
+                            <option value="1">Admin</option>
+                            <option value="2">Cliente</option>
+                        </select>
+                    <button class="login" type="submit">Registrar</button>
+                    <p>¿Ya tienes una cuenta? <a href="#" id="mostrarLogin" style="color: chartreuse;">Ingresa aquí</a></p>
+                    
+                    </form>
+            </div>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="../pages/categorias.html">Categorias</a></li> 
+            <li><a href="../pages/ofertas.html">Ofertas</a></li> 
+            <li><a href="../pages/top.html">Top Ventas</a></li> 
+            <li><a href="../pages/novedades.html">Novedades</a></li>
+            <li><a href="../pages/preventa.html">Preventa</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+              <img src="../estilo/publi_1.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide fade">
+              <img src="../estilo/publi_2.jpg" alt="Imagen 2">
+            </div>
+            <div class="slide fade">
+              <img src="../estilo/publi_3.jpg" alt="Imagen 3">
+            </div>
+        </div>
+
+
+
+        <div class="categorias">
+            <main class="product-content">
+                <div class="literatura">
+                    <h2 class="contenido">Literatura</h2>
+
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="universal.html">Literatura universal</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="clasicos.html">Clasicos</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="historica.html">Novela historica</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="suspenso.html">Novela nega y suspenso</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="poesia.html">Poesia</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="fantasia.html">Ciencia ficcion y fantasia</a></p><br>
+                        
+                </div>
+                <div class="product-1">
+                    <div class="product-row">
+                        <div class="product-item">
+                            <a href="libro.html?id=1"><img src="../estilo/imagen_p1.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>los mejores cuentos japoneses</h3>
+                                <p class="escritor">Lafcadio Heam</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="1"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=2"><img src="../estilo/imagen_p2.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>el retrato de dorian gray</h3>
+                                <p class="escritor">Oscar Wilde</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="2"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=3"><img src="../estilo/imagen_p3.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>rebelión en la granja</h3>
+                                <p class="escritor">George Orwell</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="3"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-row">
+                        <div class="product-item">
+                            <a href="libro.html?id=4"><img src="../estilo/imagen_p4.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>bestiario y mitologia</h3>
+                                <p class="escritor">H.P. Lovecraft</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="4"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=5"><img src="../estilo/imagen_p5.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>residencia en la tierra</h3>
+                                <p class="escritor">Pablo Neruda</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="5"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=6"><img src="../estilo/imagen_p6.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>meditaciones</h3>
+                                <p class="escritor">Marco Aurelio</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="6"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-1">
+
+                    <div id="libros-Literatura universal"></div>
+                   
+                </div>
+            </main>
+           
+        </div>
+        
+   </div>
+
+
+    <!-- Al final del body, después de los otros scripts -->
+<script src="../js/cargarLibros.js"></script>
+<script>
+    // Cargar libros cuando el DOM esté listo
+    document.addEventListener('DOMContentLoaded', function() {
+        // Para universal.html
+        cargarLibros(1, 'libros-Literatura universal');
+        
+        
+    });
+</script>
+  
+
+
+  <script src="../js/app.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

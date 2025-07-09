@@ -1,0 +1,221 @@
+<!--frontend/pages/suspenso.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/suspenso.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <a href="./cliente.html"><img src="/estilo/logo.png" class="logo" alt="logo"></a>
+        
+        
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar...">
+            <button type="submit" id="search-button">🔍</button>
+        </div>
+        <div id="contenedor-libros"></div>
+        <div class="user-actions">
+            <div class="cart-container">
+                <a href="#" id="carritoToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+                
+                <div id="carritoContainer" class="carrito-popup" style="display: none;">
+  <h2>Tu Carrito</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Libro</th>
+        <th>Precio</th>
+        <th>Cant.</th>
+        <th>Subtotal</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="carritoTabla"></tbody>
+  </table>
+  <div class="total-section">
+    <h3>Total: $<span id="totalCarrito">0</span></h3>
+    <button id="confirmarBtn">Confirmar Compra</button>
+  </div>
+</div>
+
+
+
+                
+            </div>
+            <div class="user-container" style="position: relative;">
+  <a href="#" id="personToggle">
+    <svg xmlns="http://www.w3.org/2000/svg" class="person" viewBox="0 0 16 16">
+      <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+    </svg>
+  </a>
+  <div id="userDropdown" class="user-dropdown">
+    <button id="logoutBtn">Cerrar sesión</button>
+    <p>¡Gracias por tu visita!</p>
+  </div>
+</div>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="../pages/copiCategorias.html">Categorias</a></li> 
+            <li><a href="../pages/copiOfertas.html">Ofertas</a></li> 
+            <li><a href="../pages/copiTop.html">Top Ventas</a></li> 
+            <li><a href="../pages/copiNovedades.html">Novedades</a></li>
+            <li><a href="../pages/copiPreventa.html">Preventa</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+
+
+
+
+
+        <div class="slideshow-container">
+            <div class="slide fade">
+              <img src="../estilo/publi_10.jpg" alt="Imagen 10">
+            </div>
+            <div class="slide fade">
+              <img src="../estilo/publi_11.jpg" alt="Imagen 11">
+            </div>
+            <div class="slide fade">
+              <img src="../estilo/publi_12.jpg" alt="Imagen 12">
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="categorias">
+            <main class="product-content">
+                <div class="literatura">
+                    <h2 class="contenido">Literatura</h2>
+
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="copiUniversal.html">Literatura universal</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="copiClasicos.html">Clasicos</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="copiHistorica.html">Novela historica</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="copiSuspenso.html">Novela nega y suspenso</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="copiPoesia.html">Poesia</a></p><br>
+                    <p><svg xmlns="http://www.w3.org/2000/svg"class="lbr" viewBox="0 0 16 16">
+                        <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                      </svg><a class="lista" href="copiFantasia.html">Ciencia ficcion y fantasia</a></p><br>
+                        
+                </div>
+   
+                <div class="product-1">
+                    <div class="product-row">
+                        <div class="product-item">
+                            <a href="libro.html?id=19"><img src="../estilo/imagen_p19.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Los Vigilantes</h3>
+                                <p class="escritor">A. M. Shine</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="19"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=20"><img src="../estilo/imagen_p20.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Los Mejores Relatos De Terror</h3>
+                                <p class="escritor">Lovecraft</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="20"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=21"><img src="../estilo/imagen_p21.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Misterio En El Club De La Lectura</h3>
+                                <p class="escritor">Ellery Adams</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="21"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-row">
+                        <div class="product-item">
+                            <a href="libro.html?id=22"><img src="../estilo/imagen_p22.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>La Hora Azul</h3>
+                                <p class="escritor">Paula Hawkins</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="22"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=23"><img src="../estilo/imagen_p23.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Umbral De La Noche</h3>
+                                <p class="escritor">Stephen King</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="23"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=24"><img src="../estilo/imagen_p24.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Un Saco De Huesos</h3>
+                                <p class="escritor">Stephen King</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="24"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+                <div class="product-1">
+
+                <div id="libros-Novela negra y suspenso"></div>
+                   
+                </div>
+            </main>
+           
+        </div>
+        
+   </div>
+
+
+   
+
+
+  <script src="../js/cargarLibros.js"></script>
+<script>
+    // Cargar libros cuando el DOM esté listo
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        
+        
+        // Para suspenso.html usarías:
+        cargarLibros(4, 'libros-Novela negra y suspenso');
+        
+       
+    });
+</script>
+
+   
+  <script src="../js/app.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="/js/userMenu.js"></script>
+
+</body>
+</html>

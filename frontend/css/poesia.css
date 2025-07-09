@@ -1,0 +1,602 @@
+/* //frontend/css/universal.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container-principal {
+    display: flex;
+    position: relative;
+}
+.literatura{
+    position: absolute;
+    z-index: 10;
+    width: 60px;
+    height: 390px;
+    top: 142px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    transition: width 0.5s ease;
+}
+.literatura p {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+.literatura:hover{
+    width: 435px;
+    height: 480px;
+    border-radius: 0% 15% 0% 15%;
+}
+.lbr{
+    width: 36px;
+    height: 36px;
+    fill: #fff;
+    margin-left: 10px;
+    transition: fill 0.5s ease;
+    cursor: pointer;
+}
+.lbr:hover{
+    fill: chartreuse;
+}
+.lista {
+    color: #fff;
+    font-size: 25px;
+    opacity: 0;
+    width: 0;
+    transition: 
+        opacity 0.5s ease, 
+        width 0.5s ease,
+        margin-left 0.5s ease;
+}
+.lbr:hover + .lista,
+.lista:hover {
+    opacity: 1;
+    width: auto;
+    margin-left: 10px; 
+}
+.literatura:hover .lista {
+    opacity: 1;
+    width: auto;
+}
+.lista:hover{
+    color: chartreuse;
+    font-style: italic;
+    font-size: 30px;
+}
+.contenido{
+    color: #fff;
+    padding: 8%;
+    white-space: nowrap;
+    opacity: 0;
+}
+.contenido:hover{
+    opacity: 1;
+}
+.literatura:hover .contenido {
+    opacity: 1;
+}
+.product-1 {
+    width: 1020px;
+    
+    margin-left: 400px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+    gap: 20px;
+}
+.product-row {
+    
+    display: flex;
+    justify-content: space-between;
+    height: 54%;
+    gap: 15px;
+    margin: 50px;
+    align-items: start;
+    margin-top: -10px;
+    
+}
+.product-item {
+    width: 30%;
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+.portda {
+    width: 140px;
+    height: 170px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+.portda:hover{
+    cursor: pointer;
+    transform: scale(1.1) ;
+    filter: drop-shadow(0 0 8px #0a3a0a);
+}
+.product-txt {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;  
+}
+.product-txt h3 {
+    margin-top: -25px;
+    text-align: center;
+    font-size: 20px;
+}
+.product-txt h3
+ {
+    color: chartreuse; 
+}
+
+.precio {
+    font-family: 'Playfair Display', serif;
+    margin: 5px 0;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.escritor{
+    background: linear-gradient(135deg, #555555 0%, #444444 50%, #333333 100%);
+
+}
+
+.product-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+    background: linear-gradient(150deg,
+    #333333 0%,
+    #222222 50%,
+    #000000 100%
+    );
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: justify;
+}
+nav{
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 22px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+    margin: 0; 
+}
+nav li {
+    list-style: none;
+    margin: 0 10px; 
+}
+nav a:hover {
+    transition: 0.5s ease;
+    background-color: #888;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav a:hover{
+    transition: 0.5s ease;
+    background-color: #888;
+}
+.logo{
+    margin-top: 3%;
+    margin-left:2.8%;
+    object-fit: cover;
+    overflow: hidden;
+    transform: scale(10);
+    max-width: 1%;
+}
+.logo:hover{
+    opacity: 0.5;
+    transition: 0.9s ease;
+}
+.search-bar {
+    flex: 5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar input {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 30%; 
+    margin-top: -4%;
+}
+.search-bar button {
+    padding: 14px 10px;
+    border: none;
+    background: linear-gradient(
+    rgb(221, 8, 193) 0%,
+    rgb(92, 83, 221) 50%,
+    rgb(46, 32, 241) 100%
+    );
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    margin-top: -4%;
+}
+.search-bar button:hover {
+    background-color: #666;
+}
+.user-actions {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.user-actions a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.user-actions a:hover {
+    color: #ccc;
+}
+.cart{
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+    padding: auto;
+}
+.cart:hover{
+    fill: chartreuse;
+}
+.person{
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+    padding: auto;
+}
+.person:hover{
+    fill: chartreuse;
+}
+
+.slideshow-container {
+    position: absolute;
+    top: 145px;
+    left: -5px;
+    width: 500px; 
+    height: 750px; 
+    overflow: hidden;
+    z-index: 5; 
+  }
+  .slide {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  @keyframes slideshow {
+    0% { opacity: 0; z-index: 1; }
+    5% { opacity: 1; z-index: 1; }
+    25% { opacity: 1; z-index: 1; }
+    30% { opacity: 0; z-index: 0; }
+    100% { opacity: 0; z-index: 0; }
+  }
+  .slide:nth-child(1) {
+    animation: slideshow 15s infinite 0s;
+  }
+  .slide:nth-child(2) {
+    animation: slideshow 15s infinite 5s;
+  }
+  .slide:nth-child(3) {
+    animation: slideshow 15s infinite 10s;
+  }
+
+ 
+.login {
+    background-color: rgb(12, 56, 10);
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    margin: 15px 0;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#loginForm {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  z-index: 100;
+  display: none; 
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+}
+#loginForm.active {
+  display: flex;
+}
+#registerForm {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  z-index: 100;
+  display: none; 
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+}
+
+#registerForm.active {
+  display: flex;
+}
+#rol{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+#contenedor-libros {
+  display: none; /* Oculto por defecto */
+  position: absolute;
+  top: 150px; /* Ajusta la distancia vertical según tu header */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100; /* Para que quede encima de otros elementos */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+
+
+
+/* El contenedor general de cada libro */
+.libro-card {
+  display: flex;
+  align-items: center;      /* Centra verticalmente */
+  gap: 10px;                /* Espacio entre imagen y textos */
+  background: rgb(0, 0, 0);         /* Opcional: fondo oscuro */
+  padding: 5px;
+  border-bottom: 1px solid #444;
+  border-radius: 10px;
+}
+
+/* La imagen miniatura */
+.mini-portada {
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Aquí es donde se organiza el texto en columna */
+.libro-info {
+  display: flex;
+  flex-direction: column;   /* Muy importante: en columna */
+  gap: 2px;
+}
+
+/* Estilo de cada línea de texto */
+.libro-info span {
+  color: white;
+  font-size: 14px;
+}
+
+.libro-enlace {
+  display: flex; 
+  align-items: center;
+  gap: 10px;
+  text-decoration: none; /* Opcional: quitar subrayado */
+}
+/* Contenedor del dropdown */
+.user-dropdown {
+  position: absolute;
+  width: 300px;
+  top: 90px; /* Ajusta según altura de tu header */
+  right: -4px; /* Ajusta según tu layout */
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* Oculto por defecto */
+  z-index: 1000;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+/* Botón dentro del dropdown */
+.user-dropdown button {
+  background-color: rgb(12, 56, 10);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* Opcional: transición suave */
+.user-dropdown {
+  transition: opacity 0.3s ease;
+}
+.carrito-popup {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 420px;
+  max-height: 70vh;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  border: none;
+}
+
+.carrito-popup h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.carrito-popup table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.carrito-popup th {
+  text-align: left;
+  padding: 10px 5px;
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.carrito-popup td {
+  padding: 12px 5px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.carrito-popup tr:last-child td {
+  border-bottom: none;
+}
+
+.carrito-popup .eliminar-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.carrito-popup .eliminar-btn:hover {
+  background-color: #c0392b;
+}
+
+.total-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 2px solid #eee;
+}
+
+.total-section h3 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+#confirmarBtn {
+  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#confirmarBtn:hover {
+  background: linear-gradient(135deg, #219653 0%, #27ae60 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para cuando el carrito está vacío */
+.carrito-vacio {
+  text-align: center;
+  padding: 20px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Efecto de hover para las filas del carrito */
+.carrito-popup tr:hover td {
+  background-color: #f8f9fa;
+}
+

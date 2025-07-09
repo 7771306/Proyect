@@ -1,0 +1,474 @@
+/* //frontend/css/styles.css */
+/* //frontend/css/index.css */
+@font-face{
+    font-family: 'AkayaKanadaka';
+    src: url(../estilo/AkayaKanadaka-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+    background: linear-gradient(150deg,
+    #333333 0%,
+    #222222 50%,
+    #000000 100%
+    );
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: justify;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 55px;
+}
+.main{
+    flex: 3;
+    margin-left: 650px;
+    margin-top: -480px;
+    padding: 10px;
+    font-family: 'AkayaKanadaka';
+    font-size: 25px;
+    margin-right: 5%;
+    color: #fff;
+    
+}
+.sidebar{
+    margin-top: 45px;
+    margin-left: 0%;
+    object-fit: cover;
+    transform: scale(1.2);
+    max-width: 3%;
+}
+nav{
+    margin-top: -2%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 22px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+    margin: 0; 
+}
+
+nav li {
+    list-style: none;
+    margin: 0 10px; 
+}
+
+nav a:hover {
+    transition: 0.5s ease;
+    color: chartreuse;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav a:hover{
+    transition: 0.5s ease;
+}
+.logo{
+    margin-top: 3%;
+    margin-left:2.8%;
+    object-fit: cover;
+    overflow: hidden;
+    transform: scale(10);
+    max-width: 1%;
+}
+.logo:hover{
+    opacity: 0.5;
+    transition: 0.9s ease;
+}
+.search-bar {
+    flex: 5; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    width: 30%; 
+    margin-top: -4%;
+}
+
+.search-bar button {
+    padding: 14px 10px;
+    border: none;
+    background: linear-gradient(
+    rgb(221, 8, 193) 0%,
+    rgb(92, 83, 221) 50%,
+    rgb(46, 32, 241) 100%
+    );
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    margin-top: -4%;
+}
+
+.search-bar button:hover {
+    background-color: #666;
+}
+
+.user-actions {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-actions a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.user-actions a:hover {
+    color: #ccc;
+}
+.cart{
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+    padding: auto;
+}
+.cart:hover{
+    fill: chartreuse;
+}
+.person{
+    fill: #fff;
+    width: 35px;
+    height: 35px;
+    padding: auto;
+}
+.person:hover{
+    fill: chartreuse;
+}
+.login {
+    background-color: rgb(12, 56, 10);
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    margin: 15px 0;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#loginForm {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  z-index: 100;
+  display: none; 
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+}
+#loginForm.active {
+  display: flex;
+}
+#registerForm {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  z-index: 100;
+  display: none; 
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+}
+
+#registerForm.active {
+  display: flex;
+}
+#rol{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+#contenedor-libros {
+  display: none; /* Oculto por defecto */
+  position: absolute;
+  top: 150px; /* Ajusta la distancia vertical según tu header */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100; /* Para que quede encima de otros elementos */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+
+
+
+/* El contenedor general de cada libro */
+.libro-card {
+  display: flex;
+  align-items: center;      /* Centra verticalmente */
+  gap: 10px;                /* Espacio entre imagen y textos */
+  background: rgb(0, 0, 0);         /* Opcional: fondo oscuro */
+  padding: 5px;
+  border-bottom: 1px solid #444;
+  border-radius: 10px;
+}
+
+/* La imagen miniatura */
+.mini-portada {
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Aquí es donde se organiza el texto en columna */
+.libro-info {
+  display: flex;
+  flex-direction: column;   /* Muy importante: en columna */
+  gap: 2px;
+}
+
+/* Estilo de cada línea de texto */
+.libro-info span {
+  color: white;
+  font-size: 14px;
+}
+
+.libro-enlace {
+  display: flex; 
+  align-items: center;
+  gap: 10px;
+  text-decoration: none; /* Opcional: quitar subrayado */
+}
+
+
+
+
+/* Contenedor del dropdown */
+.user-dropdown {
+  position: absolute;
+  width: 300px;
+  top: 90px; /* Ajusta según altura de tu header */
+  right: -4px; /* Ajusta según tu layout */
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none; /* Oculto por defecto */
+  z-index: 1000;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+/* Botón dentro del dropdown */
+.user-dropdown button {
+  background-color: rgb(12, 56, 10);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* Opcional: transición suave */
+.user-dropdown {
+  transition: opacity 0.3s ease;
+}
+
+
+
+.main{
+    flex: 3;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'AkayaKanadaka';
+    font-size: 25px;
+    margin-right: 5%;
+    color: #fff;
+}
+.sidebar{
+    margin-top: -7px;
+    margin-right: 47%;
+    object-fit: cover;
+    transform: scale(1.2);
+    max-width: 3%;
+}
+.carrito-popup {
+  position: absolute;
+  top: 160px;
+  right: 15px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 420px;
+  max-height: 70vh;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  border: none;
+}
+
+.carrito-popup h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.carrito-popup table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.carrito-popup th {
+  text-align: left;
+  padding: 10px 5px;
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.carrito-popup td {
+  padding: 12px 5px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+}
+
+.carrito-popup tr:last-child td {
+  border-bottom: none;
+}
+
+.carrito-popup .eliminar-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: all 0.3s ease;
+}
+
+.carrito-popup .eliminar-btn:hover {
+  background-color: #c0392b;
+}
+
+.total-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  border-top: 2px solid #eee;
+}
+
+.total-section h3 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+#confirmarBtn {
+  background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#confirmarBtn:hover {
+  background: linear-gradient(135deg, #219653 0%, #27ae60 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo para cuando el carrito está vacío */
+.carrito-vacio {
+  text-align: center;
+  padding: 20px;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+/* Efecto de hover para las filas del carrito */
+.carrito-popup tr:hover td {
+  background-color: #f8f9fa;
+}
+
+
+
+
+
+
+
+
+
+
+

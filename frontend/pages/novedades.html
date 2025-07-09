@@ -1,0 +1,166 @@
+<!--frontend/pages/novedades.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/novedades.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="/estilo/logo.png" class="logo" alt="logo"></a>
+        
+        
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar...">
+            <button type="submit" id="search-button">🔍</button>
+        </div>
+        <div id="contenedor-libros"></div>
+        <div class="user-actions">
+            <div class="cart-container">
+                <a href="#" id="carritoToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+                
+                <div id="carritoContainer" class="carrito-popup" style="display: none;">
+  <h2>Tu Carrito</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Libro</th>
+        <th>Precio</th>
+        <th>Cant.</th>
+        <th>Subtotal</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="carritoTabla"></tbody>
+  </table>
+  <div class="total-section">
+    <h3>Total: $<span id="totalCarrito">0</span></h3>
+    <button id="confirmarBtn">Confirmar Compra</button>
+  </div>
+</div>
+
+
+
+                
+            </div>
+            <div class="user-container">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="person" viewBox="0 0 16 16">
+                        <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    </svg></a>
+                    
+                    <form id="loginForm">
+                        <h2>Login</h2>
+                    <div class="input-container">
+                      <input type="email" id="correo" placeholder="Correo" autocomplete="username" required />
+                    </div>
+                    <div class="input-container">
+                     <input type="password" id="contraseña" placeholder="Contraseña" autocomplete="current-password" required>
+                    </div>
+                      <button class="login" type="submit">Iniciar sesión</button>
+                      <p>¿Nuevo usuario? <a href="#" id="mostrarRegistro" style="color: chartreuse;">Crea una cuenta</a></p>
+                    </form>
+
+                    
+                    <form id="registerForm">
+                        <h2>Registro</h2>
+                        <div class="input-container">
+                        <input type="text" id="nombre" placeholder="Nombre" required />
+                        </div>
+                        <div class="input-container">
+                        <input type="email" id="correo-reg" placeholder="Correo" autocomplete="username" required />
+                        </div>
+                        <div class="input-container">
+                        <input type="password" id="contraseña-reg" placeholder="Contraseña" autocomplete="new-password" required>
+                        </div>
+                        <select id="rol">
+                            <option value="1">Admin</option>
+                            <option value="2">Cliente</option>
+                        </select>
+                    <button class="login" type="submit">Registrar</button>
+                    <p>¿Ya tienes una cuenta? <a href="#" id="mostrarLogin" style="color: chartreuse;">Ingresa aquí</a></p>
+                    
+                    </form>
+            </div>
+        </div>
+    <nav>
+        <ul>
+            <li><a href="../pages/categorias.html">Categorias</a></li> 
+            <li><a href="../pages/ofertas.html">Ofertas</a></li> 
+            <li><a href="../pages/top.html">Top Ventas</a></li> 
+            <li><a href="../pages/novedades.html">Novedades</a></li>
+            <li><a href="../pages/preventa.html">Preventa</a></li>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+        <div class="categorias">
+            <main class="product-content">
+              
+                <div class="product-1">
+                    <div class="product-row">
+                        <div class="product-item">
+                            <a href="libro.html?id=53"><img src="../estilo/imagen_p53.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Black Water 3 la Casa</h3>
+                                <p class="escritor">Michael McDowell</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="53"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=54"><img src="../estilo/imagen_p54.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Carrie Ed.</h3>
+                                <p class="escritor">Stephen King</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="54"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=55"><img src="../estilo/imagen_p55.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>Reckless</h3>
+                                <p class="escritor">Lauren Roberts</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="55"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=56"><img src="../estilo/imagen_p56.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>El Hobbit</h3>
+                                <p class="escritor">J.R.R Tolkien</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="56"></a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <a href="libro.html?id=57"><img src="../estilo/imagen_p57.png" alt="" class="portda"></a>
+                            <div class="product-txt">
+                                <h3>El Mensajero de Agartha</h3>
+                                <p class="escritor">Mario Mendoza</p>
+                                <p class="precio">$20000</p>
+                                <a href="#" class="agregar-carrito btn-2" data-id="57"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+           
+        </div>
+        
+   </div>
+  
+  <script src="../js/app.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/register.js"></script>
+    <script src="../js/carrito.js"></script>
+</body>
+</html>

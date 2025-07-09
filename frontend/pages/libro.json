@@ -1,0 +1,559 @@
+[
+    {
+      "id": 1,
+      "title": "Los mejores cuentos japoneses",
+      "author": "Lafcadio Hearn",
+      "price": "20000",
+      "description": "Esta asombrosa colección de relatos de lectura obligada llevará al lector a un viaje inolvidable a través del rico folclore de Japón. Se trata de una mirada única y seductora sobre la cultura, la mitología y la espiritualidad japonesas. Desde cuentos populares hasta historias de fantasmas, estas breves narraciones están repletas de imágenes vívidas, una bella prosa y tramas cautivadoras. Las piezas van desde lo humorístico hasta lo tenebroso, y tocan con maestría temas como lo sobrenatural, la superstición y el karma. En esta selección hemos recopilado los 29 mejores cuentos de Lafcadio Hearn, obras maestras como La historia de O-Tei, El jinete del cadáver, La historia de Mimi-Nashi-Hōichi, Oshidori, La historia de Aoyagi, El sueño de Akinosuké o Riki-Baka. Mediante estas creaciones, el autor transmite un profundo conocimiento de las tradiciones niponas. De hecho, su percepción y comprensión del estilo de vida del Imperio del Sol Naciente lo llevaron a convertirse en uno de los primeros embajadores de su cultura y costumbres en Occidente.",
+      "image": "estilo/imagen_p1.png",
+      "category": "Literatura universal"
+    },
+    {
+      "id": 2,
+      "title": "El retrato de Dorian Gray",
+      "author": "Oscar Wilde",
+      "price": "20000",
+      "description":"En el retrato de Dorian Gray, donde la riqueza fantástica halla su expresión más adecuada en un estilo luminoso y refinado, y la paradoja gobierna y regula la materia y la palabra, el escritor dublinés Oscar Wilde muestra la transfiguración que el arte opera sobre la realidad, aboliendo por sí solo las fronteras entre bien y el mal. Dorian es víctima del engaño de la doble vida, su bello rostro desaparecerá con la misma rapidez con que hunde un puñal sobre el lienzo que guardaba la imagen que siempre lo acompaño.",
+      "image": "estilo/imagen_p2.png",
+      "category": "Literatura universal"
+    },
+    {
+        "id": 3,
+        "title": "rebelión en la granja",
+        "author": "George Orwell",
+        "price": "20000",
+        "description":"Los maltratados y explotados animales de una granja le arrebatan el control de la misma al granjero. Con un idealismo incendiario y lemas exaltados, comienzan la creación de un paraíso de progreso, justicia e igualdad. Esta es la puesta en escena de una de las fábulas satíricas más reveladoras jamás escritas, un relato para adultos de fantasía hiriente que narra la evolución desde una rebelión contra la tiranía hasta un totalitarismo igual de terrible. Cuando Rebelión en la granja se publicó por primera vez, se consideró que la obra era un ataque a la Unión Soviética de Stalin. Hoy día, es espantosamente claro que donde quiera y cuando quiera la libertad se vea atacada, bajo cualquier divisa, la claridad tajante y el feroz humor de la obra maestra de George Orwell tienen un significado y un mensaje que son tremendamente actuales.",
+        "image": "estilo/imagen_p3.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 4,
+        "title": "bestiario y mitologia",
+        "author": "H.P. Lovecraft",
+        "price": "20000",
+        "description":"Una obra imprescindible para los amantes del horror cósmico, este libro recopila las criaturas más enigmáticas y aterradoras concebidas por el maestro de Providence. El talento surrealista del ilustrador argentino Enrique Alcatena da vida visual a 22 entidades lovecraftianas —desde los clásicos de los Mitos de Cthulhu hasta seres menos conocidos—, interpretando con maestría las descripciones deliberadamente vagas e inefables del autor. Cada criatura viene acompañada por fragmentos de los relatos originales (traducidos por Elvio E. Gandolfo), creando un diálogo fascinante entre palabra e imagen. El resultado es un viaje único al corazón del horror lovecraftiano, donde el arte amplía lo que la literatura solo insinuaba.",
+        "image": "estilo/imagen_p4.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 5,
+        "title": "residencia en la tierra",
+        "author": "Pablo Neruda",
+        "price": "20000",
+        "description":"Publicado inicialmente en 1933 y ampliado en 1935, Residencia en la tierra es el gran clásico del «más grande poeta del siglo XX en todos los idiomas», en palabras de Gabriel García Márquez. Después de escribir Crepusculario y Veinte poemas de amor y una canción desesperada, y a raíz de una aguda crisis vital sufrida durante su estancia consular en oriente, Neruda se embarcó en la composición de este libro monumental que supuso una ruptura decisiva respecto a su obra anterior y la poesía en español.",
+        "image": "estilo/imagen_p5.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 6,
+        "title": "meditaciones",
+        "author": "Marco Aurelio",
+        "price": "20000",
+        "description":"Obra cumbre de la filosofía estoica, 'Meditaciones' reúne las reflexiones personales del emperador romano Marco Aurelio, escritas durante sus campañas militares en el siglo II d.C. Más que un tratado filosófico sistemático, este libro es un íntimo diario donde el gobernante plasma su búsqueda de la virtud, la razón y la armonía con la naturaleza. A través de aforismos y pensamientos breves, Marco Aurelio explora temas universales como la fugacidad de la vida, el control de las emociones, el deber cívico y la aceptación del destino. Su sabiduría práctica, libre de dogmatismo, sigue inspirando a lectores como guía para cultivar la resiliencia y la integridad moral en medio de la adversidad.",
+        "image": "estilo/imagen_p6.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 7,
+        "title": "electra",
+        "author": "Sofocles",
+        "price": "20000",
+        "description":"La 'Electra' de Sófocles es una tragedia griega clásica que dramatiza la venganza de Electra y su hermano Orestes por el asesinato de su padre, Agamenón, a manos de su madre Clitemnestra y su amante Egisto. La obra se centra en el dolor obstinado de Electra, quien tras años de luto y humillación, anhela justicia. Con la llegada secreta de Orestes, disfrazado como un mensajero con falsas noticias de su propia muerte, se desencadena el plan de retribución. Sófocles explora temas de justicia divina y humana, el conflicto entre deber familiar y moralidad, y los límites del sufrimiento. La obra destaca por su intensidad emocional, caracterización psicológica profunda (particularmente de Electra como figura de dolor indómito) y su uso magistral de la ironía dramática. Como contrapunto a versiones de Esquilo y Eurípides, la 'Electra' sofoclea presenta una defensa más explícita de la venganza como acto de restauración del orden cósmico.",
+        "image": "estilo/imagen_p7.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 8,
+        "title": "invitado de dracula",
+        "author": "Bram Stoker",
+        "price": "20000",
+        "description":"'El invitado de Drácula' es un relato corto escrito por Bram Stoker, originalmente concebido como el capítulo introductorio de su famosa novela 'Drácula' (1897), pero eventualmente descartado y publicado de forma independiente. La historia sigue a un joven abogado inglés, Jonathan Harker, quien viaja a través de los Cárpatos hacia el castillo del Conde Drácula en Transilvania. Durante su travesía, Harker experimenta inquietantes encuentros sobrenaturales, incluyendo una misteriosa condesa vampírica y una tormenta de nieve sobrenatural, que sirven como presagios de los horrores que le esperan. El relato destaca por su atmósfera gótica, la construcción gradual de suspense y los elementos folclóricos que luego se expandirían en la novela principal. Aunque menos conocido que 'Drácula', este texto ofrece una fascinante visión del proceso creativo de Stoker y una pieza autónoma del universo vampírico que ayudó a definir el género de terror.",
+        "image": "estilo/imagen_p8.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 9,
+        "title": "cuentos extraordinarios",
+        "author": "allan poe",
+        "price": "20000",
+        "description":"'Cuentos extraordinarios' es una recopilación de relatos escritos por Edgar Allan Poe, maestro del terror gótico y pionero del cuento moderno. Esta antología reúne algunas de sus obras más célebres, caracterizadas por su atmósfera opresiva, personajes atormentados y un profundo estudio de la psicología humana. Los cuentos exploran temas como la muerte, la locura, el misterio y lo sobrenatural, con una narrativa precisa y un ritmo cuidadosamente calculado para generar tensión. Entre los relatos más destacados se encuentran 'El corazón delator', 'La caída de la casa Usher' y 'El gato negro', donde Poe demuestra su habilidad para mezclar lo macabro con lo psicológico. Su estilo literario, rico en simbolismo y detalles descriptivos, influyó enormemente en la literatura de terror y misterio posterior.",
+        "image": "estilo/imagen_p9.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 10,
+        "title": "arte de la guerra",
+        "author": "sunt tzu",
+        "price": "20000",
+        "description":"El 'Arte de la Guerra' es un tratado militar clásico escrito por el estratega chino Sun Tzu (Sunzi) alrededor del siglo V a.C. Considerado como la obra fundamental de la estrategia bélica oriental, el libro sintetiza principios tácticos y filosóficos para la conducción de conflictos armados. Organizado en 13 capítulos breves, aborda desde la planificación estratégica hasta el manejo de tropas y el uso del terreno, siempre con énfasis en la eficiencia y la victoria sin combate directo. Más que un manual militar, la obra ha trascendido como guía para la competencia estratégica en campos como los negocios, la política y la psicología del conflicto, gracias a sus máximas atemporales sobre el engaño, la adaptabilidad y el conocimiento del adversario. Su estilo conciso y paradójico ('La mejor victoria es vencer sin combatir') lo ha convertido en texto de estudio tanto para líderes militares como para ejecutivos modernos.",
+        "image": "estilo/imagen_p10.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 11,
+        "title": "cuentos de san petersburgo",
+        "author": "nikolai gogol",
+        "price": "20000",
+        "description":"'Cuentos de San Petersburgo' es una colección de relatos del escritor ruso Nikolái Gógol que retrata con maestría la vida y las contradicciones de la capital imperial rusa en el siglo XIX. Esta obra incluye algunos de los cuentos más celebrados del autor, como 'La nariz', 'El capote' y 'La avenida Nevski', donde combina el realismo social con elementos fantásticos y satíricos. Gógol plasma con agudeza la burocracia absurda, las jerarquías sociales y la alienación del individuo en la ciudad moderna, creando un fresco literario tan cómico como trágico. Su estilo único -que mezcla lo grotesco, lo lírico y lo profundamente humano- influyó decisivamente en la literatura rusa posterior, especialmente en autores como Dostoievski, quien afirmó que 'todos hemos salido del capote de Gógol'.",
+        "image": "estilo/imagen_p11.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 12,
+        "title": "el fantasma de canterville",
+        "author": "Oscar Wilde",
+        "price": "20000",
+        "description":"'El fantasma de Canterville' es una deliciosa novela corta escrita por Oscar Wilde que combina con maestría el género fantástico y la sátira social. Publicada en 1887, la historia narra la llegada de una pragmática familia estadounidense a la ancestral mansión Canterville Chase en Inglaterra, habitada por un fantasma que lleva siglos aterrorizando a sus moradores. Con ingenio y humor, Wilde invierte los tópicos de las historias de fantasmas: aquí es el espectro, Sir Simon, quien termina aterrado por los despiadados métodos modernos de la familia Otis. La obra alterna momentos de comedia absurda con reflexiones sobre la cultura, la tradición y la naturaleza humana, todo con el característico estilo elegante e irónico de Wilde. El relato funciona tanto como parodia del género gótico como como encantadora fábula sobre el perdón y la redención.",
+        "image": "estilo/imagen_p12.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 13,
+        "title": "caballo de troya",
+        "author": "J.J Benitez",
+        "price": "20000",
+        "description":"'Caballo de Troya' es una fascinante serie de novelas del escritor y periodista español J.J. Benítez, que combina elementos de ficción, investigación histórica y especulación teológica. La obra sigue las aventuras de un mayor estadounidense que viaja en el tiempo hasta la época de Jesucristo mediante una operación secreta llamada 'Caballo de Troya'. A través de sus ojos, los lectores experimentan una reconstrucción detallada y alternativa de la vida de Jesús, presentando versiones controvertidas de eventos bíblicos como la resurrección y los milagros. Benítez mezcla hábilmente datos históricos con una narrativa trepidante, creando una obra que desafía las interpretaciones tradicionales mientras mantiene un profundo respeto por la figura de Jesús. La serie, compuesta por varios volúmenes, ha generado tanto admiración como polémica por su enfoque innovador y su pretensión de basarse en documentos secretos reales.",
+        "image": "estilo/imagen_p13.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 14,
+        "title": "paris despertaba tarde",
+        "author": "Maximo Huerta",
+        "price": "20000",
+        "description":"'París despertaba tarde' es una novela del escritor y periodista español Máximo Huerta que transporta al lector al París de los años 20, una época de efervescencia cultural y libertades creativas. La obra sigue la vida de varios personajes, entre ellos una joven española que llega a la capital francesa en busca de libertad y una nueva identidad, y un fotógrafo obsesionado con capturar la esencia de la ciudad. Huerta teje con maestría una trama que mezcla romance, intriga y drama histórico, ambientada en los cafés literarios, talleres de artistas y salones donde bullía la creatividad de la época. Con una prosa evocadora y llena de sensibilidad, la novela captura no solo el glamour superficial del periodo, sino también las sombras y contradicciones de una generación que bailaba sobre el abismo de la Segunda Guerra Mundial. La obra es tanto un homenaje al París eterno como una reflexión sobre el precio de la libertad y los secretos que todos llevamos dentro.",
+        "image": "estilo/imagen_p14.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 15,
+        "title": "los nazis sabian mi nombre",
+        "author": "Maya Lee",
+        "price": "20000",
+        "description":"'Los nazis sabían mi nombre' es el impactante testimonio autobiográfico de Maya Lee (hija de la superviviente del Holocausto Magda Hellinger), que relata la extraordinaria historia de su madre en los campos de concentración nazis. El libro documenta cómo Magda, una maestra judía eslovaca, utilizó su ingenio y valentía para salvar vidas mientras era prisionera en Auschwitz-Birkenau, donde los nazis la pusieron a cargo de un bloque de prisioneras. Con una narrativa conmovedora y meticulosamente investigada, la obra revela cómo Hellinger se enfrentó a dilemas morales imposibles, negociando con los verdugos para proteger a otras reclusas, todo mientras mantenía en secreto su verdadera identidad. Más que un relato de horror, es un testimonio de resistencia humana, liderazgo compasivo y la capacidad de mantener la dignidad en las circunstancias más inhumanas. La colaboración entre madre e hija para documentar esta historia añade una capa única de autenticidad y urgencia al relato.",
+        "image": "estilo/imagen_p15.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 16,
+        "title": "Jirones De Seda",
+        "author": "Fabian Plaza",
+        "price": "20000",
+        "description":"'Jirones de seda' es una novela del escritor español Fabián Plaza que teje una historia íntima y conmovedora sobre la pérdida, la memoria y la reconstrucción personal. Ambientada entre España y Marruecos, la obra sigue el viaje emocional de sus protagonistas mientras enfrentan las cicatrices del pasado y los hilos rotos de sus relaciones. Plaza emplea una prosa poética y sensorial, donde los detalles cotidianos adquieren profundidad simbólica, particularmente la metáfora de la seda como representación de la fragilidad y belleza de los vínculos humanos. La novela explora con delicadeza temas como el duelo, la identidad cultural y la capacidad de sanación a través del arte y los encuentros inesperados. Con una estructura narrativa no lineal que refleja el propio proceso de rememoración, 'Jirones de seda' destaca por su capacidad para convertir el dolor en literatura luminosa, ofreciendo una reflexión sobre cómo incluso las rupturas más profundas pueden transformarse en nuevas formas de belleza.",
+        "image": "estilo/imagen_p16.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 17,
+        "title": "ultimos dias en berlin",
+        "author": "Paloma Sanchez",
+        "price": "20000",
+        "description":"'Últimos días en Berlín' de Paloma Sánchez-Garnica es una novela histórica que transporta al lector al Berlín de 1941, una ciudad sumida en la Segunda Guerra Mundial pero donde aún late la vida entre las sombras del conflicto. La historia sigue a Yuri Santacruz, un joven español exiliado que se ve envuelto en una peligrosa trama de espionaje mientras intenta sobrevivir en una metrópolis cada vez más hostil. Sánchez-Garnica construye un relato magistral que entrelaza la gran historia con destinos personales, explorando temas como la lealtad, la identidad en el exilio y la resistencia silenciosa. Con una investigación histórica impecable y un ritmo narrativo trepidante, la autora recrea el ambiente opresivo pero vibrante del Berlín nazi, donde personajes de diversas nacionalidades -diplomáticos, espías, artistas- navegan entre la colaboración y la rebeldía. La novela destaca por su capacidad para humanizar la historia a través de personajes complejos cuyas decisiones éticas bajo presión constituyen el corazón del relato.",
+        "image": "estilo/imagen_p17.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 18,
+        "title": "Lady Macbethad",
+        "author": "Isabelle Schuler",
+        "price": "20000",
+        "description":"'Lady Macbethad' de Isabelle Schuler es una reimaginación literaria audaz que da voz a la mujer detrás de una de las figuras más enigmáticas de Shakespeare. La novela explora los años de formación de Gruoch ingen Boite, la reina histórica escocesa que inspiró a la infame Lady Macbeth, transportando al lector al salvaje siglo XI escocés. Schuler teje una narrativa fascinante que transforma a la 'mujer más malvada de la literatura' en un personaje complejo y multidimensional, mostrando las circunstancias políticas y personales que podrían haber moldeado su ambición. Con una prosa vívida y una investigación histórica meticulosa, la autora construye un retrato convincente de una mujer luchando por sobrevivir en un mundo brutalmente patriarcal, donde cada decisión tiene consecuencias sangrientas. La novela cuestiona hábilmente cómo la historia (y Shakespeare) juzgan a las mujeres poderosas, ofreciendo una perspectiva fresca sobre el mito literario mientras mantiene toda la intensidad dramática del personaje original.",
+        "image": "estilo/imagen_p18.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 19,
+        "title": "Los Vigilantes",
+        "author": "A. M. Shine",
+        "price": "20000",
+        "description":"'Los Vigilantes' de A.M. Shine es una escalofriante novela de terror gótico moderno que sumerge al lector en una atmósfera de paranoia ancestral y amenazas sobrenaturales. La historia sigue a un grupo de personajes atraídos a una remota mansión irlandesa donde deberán turnarse para vigilar unas misteriosas criaturas que merodean en los límites de la propiedad. Shine construye un terror psicológico meticuloso, donde el verdadero miedo surge tanto de lo que se intuye como de lo que se muestra, jugando con los límites entre la superstición rural y amenazas muy reales. Con ecos de Lovecraft y M.R. James pero con una voz contemporánea única, la novela explora temas como el aislamiento, la herencia del folclore y el precio de la curiosidad, todo envuelto en una narrativa que mantiene una tensión insoportable hasta su impactante climax. Los elementos sobrenaturales se entrelazan con traumas personales de los protagonistas, creando una experiencia de terror que resuena tanto en lo visceral como en lo emocional.",
+        "image": "estilo/imagen_p19.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 20,
+        "title": "Los Mejores Relatos De Terror",
+        "author": "Lovecraft",
+        "price": "20000",
+        "description":"'Los Mejores Relatos de Terror' de H.P. Lovecraft reúne las obras más icónicas del maestro del horror cósmico, cuya influencia perdura en la literatura de terror contemporánea. Esta antología incluye joyas como 'La llamada de Cthulhu', 'El horror de Dunwich' y 'En las montañas de la locura', donde Lovecraft despliega su visión única de un universo indiferente poblado por entidades ancestrales que desafían toda comprensión humana. Sus relatos combinan una prosa barroca con conceptos científicos y mitologías inventadas, creando una sensación de 'horror cósmico' donde la humanidad es insignificante frente a fuerzas inmemoriales. Más que sustos fáciles, Lovecraft construye una atmósfera de inquietud intelectual, donde el terror surge del colapso de la razón ante lo inefable. Esta colección muestra el desarrollo de sus Mitos de Cthulhu y su obsesión por temas como el conocimiento prohibido, la herencia degenerada y los límites de la realidad perceptible.",
+        "image": "estilo/imagen_p20.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 21,
+        "title": "Misterio En El Club De La Lectura",
+        "author": "Ellery Adams",
+        "price": "20000",
+        "description":"'Misterio en el Club de la Lectura' de Ellery Adams es una encantadora novela de misterio que combina el amor por los libros con un intrigante caso criminal. La historia sigue a Olivia Limoges, una escritora que regresa a su pueblo natal en la costa de Carolina del Norte y forma un club de lectura con un grupo diverso de habitantes locales. Cuando uno de sus miembros aparece muerto en circunstancias sospechosas, el club se transforma en un equipo de investigación amateur, utilizando su conocimiento literario para descifrar pistas. Adams entrelaza hábilmente referencias literarias con una trama detectivesca, creando un relato que celebra el poder de la comunidad y los libros mientras mantiene el suspense. La novela destaca por sus personajes entrañables, el evocador ambiente costero y su cálido mensaje sobre la sanación a través de la amistad y la literatura.",
+        "image": "estilo/imagen_p21.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 22,
+        "title": "La Hora Azul",
+        "author": "Paula Hawkins",
+        "price": "20000",
+        "description":"'La hora azul' de Paula Hawkins es un thriller psicológico que explora los oscuros recovecos de la memoria y los secretos familiares. La historia sigue a Leonora, una mujer atormentada por visiones de su infancia en una casa rural inglesa, quien regresa al lugar de sus pesadillas para enfrentar un trauma enterrado. Hawkins teje una narrativa magistral donde pasado y presente se entrelazan peligrosamente, revelando gradualmente la verdad sobre un crimen antiguo que involucra a su familia. Con la prosa tensa y atmosférica que caracterizó a 'La chica del tren', la autora construye un relato de suspenso donde cada personaje oculta motivaciones sospechosas y donde la línea entre víctima y culpable se desdibuja. La novela destaca por su exploración de temas como la memoria traumática, la herencia emocional y la fragilidad de la percepción, todo ambientado en un paisaje rural inglés que se vuelve tan inquietante como los secretos que esconde.",
+        "image": "estilo/imagen_p22.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 23,
+        "title": "Umbral De La Noche",
+        "author": "Stephen King",
+        "price": "20000",
+        "description":"'Umbral de la noche' (Night Shift en su título original) es una colección de relatos cortos de Stephen King que reúne algunas de sus primeras y más impactantes incursiones en el terror literario. Publicada en 1978, esta antología muestra el talento incipiente del 'maestro del terror' para transformar lo cotidiano en pesadilla, con historias que van desde lo sobrenatural hasta lo psicológamente perturbador. La colección incluye clásicos como 'Los chicos del maíz', 'Trucks' (adaptado al cine como 'Maximum Overdrive') y 'La niebla', donde King demuestra su habilidad para crear atmósferas opresivas y personajes ordinarios enfrentados a lo extraordinario. Los relatos destacan por su ritmo cinematográfico, finales impactantes y la capacidad de King para encontrar el horror en escenarios comunes: lavanderías, camiones, guarderías infantiles o simples máquinas expendedoras. Más que simples cuentos de miedo, estas historias exploran temas como la culpa, la pérdida y los monstruos que llevamos dentro, estableciendo muchos de los motivos que King desarrollaría en sus novelas posteriores.",
+        "image": "estilo/imagen_p23.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 24,
+        "title": "Un Saco De Huesos",
+        "author": "Stephen King",
+        "price": "20000",
+        "description":"'Un saco de huesos' es una de las novelas más personales y atmosféricas de Stephen King, donde combina el terror sobrenatural con un profundo estudio sobre el duelo y la creatividad. La historia sigue a Mike Noonan, un escritor de éxito que tras la muerte de su esposa sufre un bloqueo creativo y se retira a su casa de verano en el lago Dark Score. Allí se ve envuelto en una trama que mezcla fantasmas del pasado, una custodia legal llena de misterio y los secretos de una mansión llamada Sara Laughs. King construye una narrativa hipnótica donde el horror emerge gradualmente, alternando entre lo psicológico y lo paranormal, con su característica habilidad para convertir lugares cotidianos en escenarios de pesadilla. La novela es tanto un thriller sobrenatural como una meditación sobre el amor perdido, la inspiración artística y cómo el pasado nunca está realmente muerto. Con referencias literarias a Daphne du Maurier y Nathaniel Hawthorne, esta obra muestra a un King en plena madurez creativa, jugando con los códigos del gótico americano mientras explora las heridas emocionales más humanas.",
+        "image": "estilo/imagen_p24.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 25,
+        "title": "Poemas de amor",
+        "author": "Pablo Neruda",
+        "price": "20000",
+        "description":"'Poemas de amor' de Pablo Neruda reúne algunos de los versos más apasionados y sensuales de la lírica hispanoamericana, donde el poeta chileno transforma el sentimiento amoroso en un universo tangible de imágenes cósmicas y elementos naturales. Esta colección incluye joyas como los celebérrimos 'Veinte poemas de amor y una canción desesperada', donde Neruda funde erotismo y melancolía con un lenguaje que oscila entre la sencillez coloquial y el simbolismo vanguardista. Sus versos, cargados de metáforas orgánicas ('el cuerpo de la mujer es como el trigo que ondula en el viento'), exploran todas las facetas del amor: desde el arrebato juvenil hasta la pasión madura, pasando por la ausencia y el recuerdo. Neruda reinventa el lenguaje amoroso, dotándolo de una vitalidad telúrica donde el amante y el paisaje se funden, creando una obra que sigue resonando como la expresión más pura del deseo y la nostalgia en lengua española.",
+        "image": "estilo/imagen_p25.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 26,
+        "title": "Ahora que ya bailas",
+        "author": "Miguel Gane",
+        "price": "20000",
+        "description":"'Ahora que ya bailas' de Miguel Gane es una colección de poesía contemporánea que celebra el amor, la libertad y el renacimiento personal con una voz fresca y accesible. El poeta rumano-español escribe versos que resuenan con una generación digital, combinando imágenes cotidianas con emociones universales en un lenguaje despojado de artificios pero cargado de autenticidad. Los poemas exploran el viaje desde el dolor hacia la luz, pasando por todas las etapas del desamor, el autodescubrimiento y finalmente la alegría reconquistada, como sugiere el título. Gane emplea un estilo minimalista donde cada palabra cuenta, creando instantáneas emocionales que saltan entre el romanticismo y la autoafirmación, siempre con un ritmo cercano a la canción moderna. Este libro refleja la sensibilidad de la poesía actual que triunfa en redes sociales, pero conservando la profundidad de quien sabe que bailar, después de todo, es otra forma de sanar.",
+        "image": "estilo/imagen_p26.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 27,
+        "title": "Veinte poemass de amor y una cancion desesperada",
+        "author": "Pablo Neruda",
+        "price": "20000",
+        "description":"'Veinte poemas de amor y una canción desesperada' es la obra cumbre de la poesía amorosa de Pablo Neruda y uno de los libros más celebrados de la lírica hispanoamericana. Publicado en 1924 cuando el poeta apenas tenía 19 años, esta colección fusiona el ardor juvenil con una maestría verbal sorprendente, transformando el erotismo en paisaje cósmico y la nostalgia en sustancia tangible. Los poemas, de estilo modernista pero con voz ya personalísima, recorren todas las etapas del amor: desde el deseo frenético ('Cuerpo de mujer, blancas colinas') hasta la pérdida desgarradora ('Puedo escribir los versos más tristes esta noche'), pasando por la fusión mística con la naturaleza ('Me gustas cuando callas'). Neruda reinventa el lenguaje amoroso mediante imágenes orgánicas donde el cuerpo amado se confunde con el mar, la lluvia o la tierra, creando una geografía emocional que ha seducido a generaciones. El libro cierra con su famosa 'Canción desesperada', epítome del dolor amoroso convertido en arte universal.",
+        "image": "estilo/imagen_p27.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 28,
+        "title": "Versos de un joven poeta",
+        "author": "Maria Rilke",
+        "price": "20000",
+        "description":"'Versos de un joven poeta' reúne la obra temprana de Rainer Maria Rilke, mostrando los primeros destellos del genio que posteriormente revolucionaría la poesía europea. Estos poemas de juventud, escritos cuando Rilke rondaba los 20 años, ya revelan su obsesión por temas que desarrollarían toda su obra: la fragilidad de la existencia, la búsqueda de Dios en lo cotidiano y la transformación del dolor en belleza. Aunque más convencionales en forma que sus obras posteriores, estos versos muestran una sensibilidad extraordinaria para capturar instantes efímeros y dotarlos de profundidad metafísica. La colección incluye tanto poemas líricos de amor como reflexiones sobre el arte y la mortalidad, todos marcados por ese tono característico de Rilke que oscila entre lo místico y lo terrenal. Especialmente conmovedores resultan los poemas dedicados a su Praga natal, donde la ciudad se convierte en símbolo de nostalgia y crecimiento espiritual.",
+        "image": "estilo/imagen_p28.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 29,
+        "title": "Lo que queda despues del sol",
+        "author": "Luisa Robledo Restrepo",
+        "price": "20000",
+        "description":"'Lo que queda después del sol' de Luisa Robledo Restrepo es una conmovedora novela que explora los hilos invisibles que unen a las generaciones y la persistencia de la memoria familiar en medio del conflicto colombiano. Ambientada entre el presente de Bogotá y el pasado rural de Antioquia, la historia sigue a una joven que descubre las cartas y diarios de su abuela, revelando secretos enterrados por la violencia y amores truncados por la guerra. Robledo teje con prosa lírica una narrativa fragmentaria donde el paisaje andino se convierte en testigo mudo del dolor, mientras las recetas de cocina, los objetos cotidianos y las tradiciones orales sirven como puentes entre el ayer y el hoy. La novela destaca por su tratamiento delicado pero sin concesiones del desplazamiento forzado, mostrando cómo los traumas históricos resurgen en formas íntimas y sorprendentes. Más que una simple reconstrucción del pasado, es un homenaje a la resistencia silenciosa de las mujeres que sostuvieron la vida cuando todo alrededor se desmoronaba.",
+        "image": "estilo/imagen_p29.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 30,
+        "title": "Topanga exilio",
+        "author": "Enrrique Bunbury",
+        "price": "20000",
+        "description":"'Topanga Exilio' es el álbum conceptual de Enrique Bunbury que marca su regreso tras cinco años de silencio creativo, un trabajo donde el músico español explora sonidos experimentales y letras introspectivas. Grabado entre Topanga (California) y Zaragoza, el disco fusiona rock alternativo con influencias de electrónica oscura y folk psicodélico, creando una atmósfera onírica y a la vez crudamente personal. Las canciones giran en torno a temas como el aislamiento autoimpuesto, la reinvención artística y la búsqueda espiritual, con Bunbury utilizando su voz como instrumento narrativo que oscila entre el susurro confesional y los gritos catárticos. Destacan cortes como 'Salvavidas', 'Aunque no sea conmigo' y 'El tiempo de las cerezas', donde la producción minimalista deja espacio a letras cargadas de simbolismo literario. Más que un simple álbum, 'Topanga Exilio' se presenta como un diario sonoro de madurez, donde el artista confronta sus fantasmas con una honestidad descarnada y una voluntad de riesgo que desafía las expectativas de su audiencia.",
+        "image": "estilo/imagen_p30.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 31,
+        "title": "El señor de los anillos 2. Las dos torres",
+        "author": "J.R.R. Tolkien",
+        "price": "20000",
+        "description":"'El Señor de los Anillos: Las Dos Torres' es el segundo volumen de la épica trilogía fantástica de J.R.R. Tolkien, donde la Comunidad del Anillo se fractura en múltiples caminos llenos de peligro. La narración se divide en tres hilos argumentales: Frodo y Sam avanzan hacia Mordor con la traicionera compañía de Gollum; Aragorn, Legolas y Gimli persiguen a los orcos que secuestraron a Merry y Pippin; mientras que estos últimos descubren los misterios del bosque de Fangorn y a los entrañables ents. Tolkien despliega su maestría worldbuilding con la introducción de lugares icónicos como Rohan, la fortaleza de Cuernavilla y la inquietante torre de Orthanc, mientras profundiza en temas como la corrupción del poder, la lealtad en la adversidad y la resistencia contra la oscuridad. El libro culmina con la épica batalla del Abismo de Helm y el cliffhanger del ataque de Shelob, manteniendo una tensión narrativa que equilibra momentos de intimidad heroica con escenas de grandiosa escala mitológica.",
+        "image": "estilo/imagen_p31.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 32,
+        "title": "El señor de los anillos 3. El retorno del rey",
+        "author": "J.R.R. Tolkien",
+        "price": "20000",
+        "description":"'El Señor de los Anillos: El Retorno del Rey' es el épico final de la trilogía de J.R.R. Tolkien, donde se resuelven los destinos de la Tierra Media en una culminación de proporciones mitológicas. El volumen narra la desesperada misión de Frodo y Sam en Mordor mientras el ejército de Aragorn se sacrifica en las Puertas del Morannon para distraer a Sauron. Tolkien entrelaza magistralmente los hilos narrativos: desde la coronación de Aragorn en Gondor hasta la conmovedora destrucción del Anillo Único en el Monte del Destino, pasando por la Batalla de los Campos del Pelennor (con la icónica carga de los jinetes de Rohan). La obra profundiza en temas como el costo moral de la victoria, el deber frente a la esperanza perdida, y el inevitable ocaso de la Tercera Edad. Los apéndices incluidos -sobre lenguas, genealogías y la Cuarta Edad- convierten esta obra no solo en una conclusión satisfactoria, sino en el fundamento de toda la fantasía épica moderna.",
+        "image": "estilo/imagen_p32.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 33,
+        "title": "Ice planet barbarians",
+        "author": "Ruby Dixon",
+        "price": "20000",
+        "description":"'Ice Planet Barbarians' de Ruby Dixon es el primer libro de la popular serie de romance ciencia-fantástico que combina pasión ardiente con elementos de supervivencia en un planeta alienígena. La historia sigue a Georgie Carruthers, una mujer humana abducida por extraterrestres que termina varada en un mundo helado, donde es rescatada por Vektal, un imponente pero noble guerrero azul de la tribu sa-khui. Dixon mezcla hábilmente los tropos del romance con worldbuilding de ciencia ficción, creando una dinámica única entre los humanos vulnerables y los resilientes nativos del planeta, quienes poseen una biología peculiar que incluye emparejamiento por 'khui' (simbiontes que determinan almas gemelas). La novela equilibra escenas íntimas con alta temperatura y una trama de aventura, explorando temas como el consentimiento intercultural, la adaptación a sociedades primitivas y el poder sanador del amor en circunstancias extremas. Su éxito ha generado una franquicia con más de 20 libros interconectados.",
+        "image": "estilo/imagen_p33.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 34,
+        "title": "Shogun",
+        "author": "James Clavell",
+        "price": "20000",
+        "description": "'Shōgun' de James Clavell es una épica novela histórica que transporta al lector al Japón feudal del siglo XVII, donde el destino de un navegante inglés, John Blackthorne, se entrelaza con las intrigas de los señores de la guerra. Clavell construye un relato magistral de choque cultural, donde el protagonista debe navegar entre las complejas normas samuráis, las luchas por el shogunato y su propia transformación de forastero despreciado a figura influyente. La novela, basada libremente en la vida del histórico William Adams, explora con meticuloso detalle la sociedad japonesa: desde el código bushido hasta los rituales de la corte, pasando por la sofisticada estrategia política que contrasta con la Europa renacentista. Con personajes inolvidables como el astuto Lord Toranaga (inspirado en Tokugawa Ieyasu) y la misteriosa dama Mariko, 'Shōgun' trasciende el marco histórico para convertirse en un estudio atemporal sobre poder, lealtad y la fragilidad de la identidad en tierra ajena. Su mezcla de precisión histórica, drama humano y acción bélica la ha consagrado como clásico de la literatura y modelo de narrativa intercultural.",
+        "image": "estilo/imagen_p34.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 35,
+        "title": "Jardin de los malditos",
+        "author": "Katy Pool",
+        "price": "20000",
+        "description":"'Jardín de los Malditos' de Katy Pool es una novela de fantasía oscura que teje una intrincada trama de secretos familiares, magia prohibida y redención en un mundo donde la belleza esconde peligros mortales. La historia sigue a Elara, una joven botánica con el don de comunicarse con plantas venenosas, quien descubre que su aristocrática familia custodia un jardín ancestral donde cultivan especies mágicas cuyos frutos otorgan poder a cambio de terribles sacrificios. Pool construye una atmósfera gótica exquisita, donde cada planta del jardín esconde una metáfora sobre los pecados generacionales y el precio del conocimiento. La narrativa alterna entre la elegancia decadente de salones victorianos y la crueldad visceral del mundo natural, explorando temas como la herencia del trauma, la ética del poder y los límites del amor filial. Con personajes moralmente ambiguos y un sistema de magia basado en la botánica alquímica, la autora ofrece una visión original del género que recuerda a 'Jonathan Strange & Mr Norrell' mezclado con 'Crimen y Castigo' botánico.",
+        "image": "estilo/imagen_p35.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 36,
+        "title": "Parque jurasico",
+        "author": "Michael Crichton",
+        "price": "20000",
+        "description":"'Parque Jurásico' de Michael Crichton es una novela de ciencia ficción y thriller científico que explora los peligros de la manipulación genética y la arrogancia humana ante las fuerzas de la naturaleza. La trama sigue a un grupo de científicos y expertos invitados a un parque temático de vanguardia donde se han clonado dinosaurios a partir de ADN prehistórico. Lo que comienza como un recorrido fascinante por esta maravilla tecnológica pronto se convierte en una lucha por la supervivencia cuando los sistemas de seguridad fallan y los dinosaurios escapan de su confinamiento. Crichton combina una investigación científica meticulosa con escenas de suspense intenso, cuestionando los límites éticos de la ingeniería genética mientras despliega un bestiario prehistórico aterradoramente convincente. Personajes como el matemático Ian Malcolm (con su famosa advertencia 'la vida se abre camino') y el paleontólogo Alan Grant encarnan los debates centrales sobre el caos, el control y la responsabilidad científica. La novela, que inspiró la icónica franquicia cinematográfica, sigue siendo un referente del techno-thriller por su capacidad para hacer la ciencia tan emocionante como aterradora.",
+        "image": "estilo/imagen_p36.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 37,
+        "title": "La espada de las brujas",
+        "author": "A.K. Mulford",
+        "price": "20000",
+        "description":"'La Espada de las Brujas' de A.K. Mulford es una novela de fantasía épica que sigue la historia de Rua, una joven guerrera que descubre ser la heredera perdida de un poderoso linaje de brujas. Ambientada en un mundo donde la magia ha sido perseguida y casi erradicada, la trama se centra en el viaje de Rua para dominar sus habilidades mágicas latentes mientras lidera una rebelión contra el opresivo régimen que ha esclavizado a su pueblo. Mulford construye un sistema de magia único basado en conexiones ancestrales con la tierra y los elementos, donde el poder verdadero proviene de la autenticidad y la aceptación de la propia identidad. La novela destaca por su combinación de intensas escenas de batalla, intriga política y una historia de amor lésbica que desafía las convenciones del género. Con personajes complejos y moralmente ambiguos, especialmente su protagonista que oscila entre la vulnerabilidad y la ferocidad, esta obra ofrece una visión fresca de la fantasía épica con representación diversa y temas contemporáneos.",
+        "image": "estilo/imagen_p37.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 38,
+        "title": "Alicia en el Pais de las Maravillas",
+        "author": "Lewis Carroll",
+        "price": "20000",
+        "description":"Alicia en el País de las Maravillas es una obra clásica de la literatura fantástica escrita por Lewis Carroll (seudónimo de Charles Lutwidge Dodgson) y publicada en 1865. La historia sigue las aventuras de Alicia, una niña curiosa que, tras perseguir a un Conejo Blanco, cae en un mundo surrealista lleno de personajes excéntricos y situaciones absurdas. En este lugar mágico, donde las reglas de la lógica y la realidad son constantemente desafiadas, Alicia se encuentra con criaturas como el Gato de Cheshire, el Sombrerero Loco y la tiránica Reina de Corazones. La novela, rica en juegos de palabras y simbolismos, explora temas como el crecimiento, la identidad y la naturaleza de la realidad, convirtiéndose en un referente de la literatura universal que ha inspirado numerosas adaptaciones en diversos medios.",
+        "image": "estilo/imagen_p38.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 39,
+        "title": "Una Ilusión de Venganza",
+        "author": "Ana Trigo",
+        "price": "20000",
+        "description":"En el Londres victoriano de 1885, el carismático ilusionista Víctor Mayfair deslumbra al público con sus espectáculos en el emblemático Egyptian Hall, cautivando por igual a plebeyos y aristócratas. Sin embargo, tras la fachada de humo y espejos se esconde un oscuro propósito: Mayfair ha llegado a la ciudad para ejecutar una meticulosa venganza que sacudirá los pilares de la alta sociedad. Mientras sus actuaciones enmascaran su verdadera misión, algo siniestro resurge en las sombras de la Abadía de Westminster, entrelazando su destino con fuerzas sobrenaturales en un juego peligroso donde nada es lo que parece.",
+        "image": "estilo/imagen_p39.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 40,
+        "title": "Miss Peregrine`S",
+        "author": "Romson Riggs",
+        "price": "20000",
+        "description":"Miss Peregrine's Home for Peculiar Children es una novela de fantasía oscura que sigue a Jacob Portman, un joven que descubre un orfanato misterioso en una remota isla galesa. Al investigar las extrañas historias de su abuelo, Jacob conoce a Miss Peregrine y sus 'niños peculiares' - menores con habilidades sobrenaturales atrapados en un bucle temporal de 1940. La narrativa, enriquecida con fotografías vintage, mezcla elementos góticos con una historia de crecimiento personal, mientras Jacob aprende sobre su legado peculiar y enfrenta amenazas sobrenaturales que ponen en peligro este frágil mundo alternativo.",
+        "image": "estilo/imagen_p40.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 41,
+        "title": "Alas de Sangre",
+        "author": "Rebeca Yarros",
+        "price": "20000",
+        "description":"Alas de Sangre es el cuarto libro de la serie Émpyrean de Rebeca Yarros, una saga de fantasía épica y romance que sigue la historia de Violet Sorrengail y Xaden Riorson. En este esperado desenlace, la guerra entre los reinos se intensifica mientras Violet debe enfrentar decisiones imposibles que pondrán a prueba su lealtad, su corazón y su propia supervivencia. Con dragones majestuosos, batallas aéreas espectaculares y un romance apasionado que desafía todas las probabilidades, la novela entreteje política intrincada, magia peligrosa y sacrificios desgarradores. Yarros culmina esta adictiva serie con giros inesperados que resolverán el destino de Basgiath y todos sus habitantes.",
+        "image": "estilo/imagen_p41.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 42,
+        "title": "La Isla de la Mujer Dormida",
+        "author": "Arturo Reverte",
+        "price": "20000",
+        "description":"La Isla de la Mujer Dormida es una novela de aventuras escrita por Arturo Pérez-Reverte que transporta al lector a un mundo de misterio y peligro. La historia sigue a un grupo de personajes diversos que se embarcan en una expedición hacia una remota isla del Pacífico, donde una antigua leyenda sobre una mujer dormida esconde secretos que muchos están dispuestos a matar para proteger. Con su característico estilo rico en detalles históricos y geográficos, Pérez-Reverte teje una trama llena de intriga, acción y reflexiones sobre la naturaleza humana, donde cada personaje oculta sus propias motivaciones y el paisaje exótico se convierte en un personaje más. La novela combina elementos de thriller, drama histórico y aventura clásica, manteniendo la tensión narrativa hasta su sorprendente desenlace.",
+        "image": "estilo/imagen_p42.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 43,
+        "title": "El dia que se Perdio la Cordura",
+        "author": "Javier Castillo",
+        "price": "20000",
+        "description":"El día que se perdió la cordura es un thriller psicológico que sigue dos líneas temporales: por un lado, la misteriosa desaparición de una joven en un centro comercial de Boston durante la Navidad de 2010; por otro, los perturbadores sucesos ocurridos en un instituto psiquiátrico años atrás. La novela entrelaza estas historias a través de la investigación del psicólogo forense Stacey Walker, quien descubre conexiones escalofriantes entre ambos casos. Con un ritmo trepidante y giros inesperados, Castillo explora los límites de la cordura humana, planteando preguntas inquietantes sobre el mal, la memoria y los secretos que yacen bajo la superficie de la normalidad.",
+        "image": "estilo/imagen_p43.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 44,
+        "title": "Victoria",
+        "author": "Paloma Sanchez",
+        "price": "20000",
+        "description":"Recién terminada la Segunda Guerra Mundial, en un Berlín arrasado y sin futuro aparente, Victoria sobrevive cantando cada noche en el club Kassandra. Pese a tener una mente prodigiosa, capaz de crear un poderoso sistema de cifrado de mensajes, su hija Hedy y su hermana Rebecca dependen de ese mísero sueldo para sobrevivir. Un chantaje sin escrúpulos por parte de los rusos obligará a Victoria a viajar sola a Estados Unidos, donde, sin embargo, disfrutará del amor incondicional del capitán Norton. Allí descubrirá que la que parecía la sociedad más democrática del mundo esconde una rancia capa de racismo e injusticias de la mano del Ku Klux Klan y el senador McCarthy.",
+        "image": "estilo/imagen_p44.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 45,
+        "title": "La Catedral del Mar",
+        "author": "Ildefonso Falcones",
+        "price": "20000",
+        "description":"La Catedral del Mar es una novela histórica de Ildefonso Falcones que transporta al lector a la Barcelona del siglo XIV. La obra narra la épica construcción de la basílica de Santa María del Mar a través de la vida de Arnau Estanyol, un siervo de la tierra que logra ascender socialmente en una ciudad marcada por la opresión feudal, los conflictos religiosos y las revueltas populares. Con una meticulosa recreación histórica, Falcones entrelaza el destino de su protagonista con los grandes acontecimientos de la época: la peste negra, la Inquisición y el florecimiento del comercio mediterráneo. La novela destaca por su vívida ambientación, personajes memorables y una trama que combina drama social, romance y la lucha por la justicia en una sociedad estamental.",
+        "image": "estilo/imagen_p45.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 46,
+        "title": "La Divina Comedia",
+        "author": "Dante Alighieri",
+        "price": "20000",
+        "description":"La Divina Comedia, obra maestra de Dante Alighieri escrita entre 1304 y 1321, es un poema épico que relata el viaje alegórico del autor a través de los tres reinos del más allá: Infierno, Purgatorio y Paraíso. Guiado primero por Virgilio y luego por Beatriz, Dante explora conceptos de pecado, redención y salvación en una estructura narrativa de 100 cantos que combina teología medieval, filosofía aristotélica y comentario político. Considerada la base de la lengua italiana moderna, esta obra monumental sintetiza la cosmovisión del Medioevo mientras retrata personajes históricos y mitológicos en escenas vívidas que han influenciado el arte y la literatura occidental durante siete siglos.",
+        "image": "estilo/imagen_p46.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 47,
+        "title": "Trilogía de la ciudad blanca",
+        "author": "Eva García Sáenz de Urturi",
+        "price": "20000",
+        "description":"La Trilogía de la Ciudad Blanca es un impactante thriller psicológico ambientado en Vitoria, que sigue al inspector Unai López de Ayala, alias 'Kraken', en su persecución de un asesino en serie que recrea crímenes rituales vinculados a la historia del arte. La serie combina suspense criminal con elementos de arqueología y simbología vasca, explorando traumas del pasado y secretos familiares ocultos bajo la apariencia de la impecable 'ciudad blanca'. Con una estructura narrativa no lineal y giros perturbadores, la autora teje una red de misterio que conecta sacrificios paganos, obras de arte renacentistas y psicología forense moderna.",
+        "image": "estilo/imagen_p47.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 48,
+        "title": "El Padrino",
+        "author": "Mario Puzo",
+        "price": "20000",
+        "description":"El Padrino de Mario Puzo es una novela icónica que narra la saga de la familia Corleone, una poderosa dinastía mafiosa de origen siciliano asentada en Nueva York. Centrada en la figura de Vito Corleone, el patriarca que gobierna con inteligencia y mano dura su imperio criminal, la trama explora temas de poder, lealtad y moralidad ambigua durante los años 1940-1950. La obra, publicada en 1969, combina drama familiar, intriga criminal y una aguda crítica social, mostrando tanto la brutalidad como el código de honor de la Cosa Nostra. Su adaptación cinematográfica dirigida por Francis Ford Coppola se convirtió en un referente del cine mundial.",
+        "image": "estilo/imagen_p48.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 49,
+        "title": "Terrra Alta",
+        "author": "Javier Cercas",
+        "price": "20000",
+        "description":"Terra Alta es una novela de suspense literario que marca el debut de Javier Cercas en el género policiaco. La historia sigue a Melchor Marín, un policía autodidacta con un pasado violento que es destinado a la aparentemente tranquila comarca de Terra Alta (Cataluña). Cuando una pareja de ancianos es brutalmente asesinada, Marín deberá resolver un caso que esconde secretos vinculados a la Guerra Civil española y que desafía su concepción de la justicia. Cercas construye un thriller psicológico que explora temas como la redención, las heridas históricas de España y los límites morales, todo ello ambientado en un paisaje rural que contrasta con la violencia del crimen.",
+        "image": "estilo/imagen_p49.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 50,
+        "title": "Todo Muere",
+        "author": "Juan Gomez Jurado",
+        "price": "20000",
+        "description":"Todo Muere es el impactante final de la Trilogía del Mal de Juan Gómez-Jurado, que cierra la historia de la inspectora Antonia Scott, la investigadora con el coeficiente intelectual más alto de Europa. En esta entrega, Scott enfrenta su caso más personal y peligroso cuando un psicópata despiadado secuestra a su hijo, desencadenando una carrera contra el tiempo llena de giros brutales. La novela combina thriller psicológico, acción trepidante y profundos dilemas morales, llevando a Antonia al límite de sus capacidades mientras enfrenta los demonios de su pasado. Gómez-Jurado cierra magistralmente la trilogía con una narrativa adictiva que mantiene una tensión insoportable hasta la última página.",
+        "image": "estilo/imagen_p50.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 51,
+        "title": "Un Animal Salvaje",
+        "author": "Joel Dicker",
+        "price": "20000",
+        "description":"Un Animal Salvaje es un thriller psicológico del autor suizo Joël Dicker que explora los oscuros recovecos de la mente humana a través de la historia de un famoso escritor en crisis. Cuando el protagonista acepta una invitación a un remoto retiro literario en los bosques de Nueva Inglaterra, lo que parece una oportunidad para superar su bloqueo creativo se convierte en una pesadilla psicológica. Dicker teje una intrincada trama llena de giros inesperados, donde los límites entre realidad y ficción se desdibijan, y donde cada personaje esconde peligrosos secretos. La novela combina elementos de suspense clásico con profundas reflexiones sobre el proceso creativo, la fama y la naturaleza depredadora del ser humano.",
+        "image": "estilo/imagen_p51.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 52,
+        "title": "La Saga De Los Longevos",
+        "author": "Eva García Sáenz de Urturi",
+        "price": "20000",
+        "description":"La Saga de los Longevos es una original mezcla de thriller histórico, fantasía y drama familiar que sigue a una misteriosa estirpe de personas que viven varios siglos sin envejecer. La historia se desarrolla en dos líneas temporales: la Vitoria actual y el mismo lugar en 1212, revelando secretos ancestrales que conectan a los protagonistas. La autora crea un universo donde la longevidad extrema es posible a través de una mutación genética, explorando las consecuencias emocionales y éticas de vivir cientos de años mientras se mantienen relaciones con mortales. La serie combina rigor histórico con elementos sobrenaturales, tejiendo una trama de intriga, romance prohibido y búsqueda de identidad que abarca ocho siglos de historia.",
+        "image": "estilo/imagen_p52.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 53,
+        "title": "Black Water 3 la Casa",
+        "author": "Michael McDowell",
+        "price": "20000",
+        "description":"Blackwater III: The House es la tercera entrega de la saga de terror sureño de Michael McDowell, que continúa la historia de la familia Caskey en la pequeña ciudad de Perdido, Alabama. Esta parte se centra en los eventos sobrenaturales que ocurren en la mansión familiar, donde las aguas negras del río Perdido esconden secretos ancestrales y una presencia maligna que amenaza a la dinastía Caskey. McDowell perfecciona su mezcla de horror gótico, drama familiar y realismo mágico, desarrollando la mitología única de la serie mientras explora temas de herencia, codicia y los oscuros lazos que unen a una familia a su tierra maldita.",
+        "image": "estilo/imagen_p53.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 54,
+        "title": "Carrie Ed.",
+        "author": "Stephen King",
+        "price": "20000",
+        "description":"Carrie es la primera novela publicada de Stephen King (1974), un icónico horror moderno que narra la historia de Carrie White, una adolescente marginada que desarrolla poderes telequinéticos tras años de abuso tanto en casa como en la escuela. La obra alterna entre documentos ficticios (recortes periodísticos, informes científicos y testimonios) y narrativa tradicional para contar el catastrófico baile de graduación donde Carrie, llevada al límite por el acoso de sus compañeros y el fanatismo religioso de su madre, desata su poder con consecuencias devastadoras. King explora temas como el bullying, la pubertad femenina, el fundamentalismo religioso y los peligros de la represión social, estableciendo muchos de los motivos que caracterizarían su obra posterior.",
+        "image": "estilo/imagen_p54.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 55,
+        "title": "Reckless",
+        "author": "Lauren Roberts",
+        "price": "20000",
+        "description":"Reckless es una novela de romance oscuro y fantasía que sigue la historia de Paedyn Gray, una joven sin poderes en un mundo donde la magia lo determina todo. Ambientada en un reino dividido por clases basadas en habilidades mágicas, la trama sigue a Paedyn cuando es forzada a participar en unos mortales Juegos donde los participantes - incluyendo al intrigante príncipe Kai - luchan hasta la muerte. Roberts combina elementos de 'Los Juegos del Hambre' con magia sistemática y tensión romántica, creando una narrativa adictiva llena de peligro, intriga política y atracción prohibida. La novela explora temas de desigualdad social, identidad engañosa y el costo del poder en un mundo donde ser ordinario es el mayor riesgo.",
+        "image": "estilo/imagen_p55.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 56,
+        "title": "El Hobbit",
+        "author": "J.R.R Tolkien",
+        "price": "20000",
+        "description":"El Hobbit es una novela de fantasía épica que narra las aventuras de Bilbo Bolsón, un hobbit casero y tranquilo reclutado por el mago Gandalf y una compañía de enanos para recuperar su reino perdido y su tesoro del dragón Smaug. Este viaje de ida y vuelta (desde la Comarca hasta la Montaña Solitaria) sirve como precuela de El Señor de los Anillos, introduciendo el Anillo Único y estableciendo la mitología de la Tierra Media. Tolkien combina elementos de cuento infantil con narrativa heroica, creando una historia fundacional del género fantástico moderno que explora temas de coraje inesperado, amistad improbable y el conflicto entre la comodidad doméstica y la llamada a la aventura.",
+        "image": "estilo/imagen_p56.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 57,
+        "title": "El Mensajero de Agartha",
+        "author": "Mario Mendoza",
+        "price": "20000",
+        "description":"El Mensajero de Agartha es una novela de suspense metafísico que combina elementos de thriller esotérico y aventura arqueológica. La historia sigue a Sebastián, un joven profesor bogotano que, tras recibir un misterioso manuscrito antiguo, se ve involucrado en una búsqueda global para descifrar un secreto ancestral relacionado con la legendaria ciudad subterránea de Agartha. Mendoza entrelaza mitologías tibetanas, sociedades secretas y teorías de conspiración en una trama que oscila entre Bogotá, el Tíbet y el desierto de Gobi, explorando temas como la sabiduría oculta, la redención personal y el conflicto entre ciencia y espiritualidad. Con su característico estilo que mezcla lo urbano con lo místico, el autor crea un thriller intelectual lleno de códigos por descifrar, persecuciones peligrosas y revelaciones que desafían la percepción de la realidad.",
+        "image": "estilo/imagen_p57.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 58,
+        "title": "Alas de Onix",
+        "author": "Rebeca Yarros",
+        "price": "20000",
+        "description":"Alas de Onix es el primer libro de la aclamada saga El Imperio de Onix, una mezcla electrizante de fantasía épica y romance new adult ambientada en la peligrosa Academia de Guerra de Basgiath. La historia sigue a Violet Sorrengail, una joven destinada a la vida académica pero obligada a ingresar como candidata a jinete de dragón, donde solo los más fuertes sobreviven. En este mundo implacable, Violet deberá enfrentarse a pruebas mortales, rivalidades sangrientas y al atractivo peligroso de Xaden Riorson, el líder de la rebelión que su familia ayudó a aplastar. Yarros combina acción trepidante, intriga política y una tensión romántica adictiva en una narrativa que explora temas de lealtad, supervivencia y el descubrimiento de la propia fuerza interior.",
+        "image": "estilo/imagen_p58.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 59,
+        "title": "Alas de Sangre",
+        "author": "Rebeca Yarros",
+        "price": "20000",
+        "description":"Violet Sorrengail, una joven frágil pero brillante, es forzada a ingresar en la brutal Academia de Guerra de Basgiath, donde los cadetes se entrenan para convertirse en jinetes de dragón. En un mundo donde el 50% muere antes de graduarse, Violet deberá sobrevivir a pruebas mortales, traiciones políticas y a su peligrosa atracción por Xaden Riorson, el líder de una rebelión pasada. Los dragones, seres inteligentes y letales, eligen a sus jinetes y otorgan poderes mágicos únicos.",
+        "image": "estilo/imagen_p59.png",
+        "category": "Literatura universal"
+      },
+      {
+        "id": 60,
+        "title": "Alas de Hierro",
+        "author": "Rebeca Yarros",
+        "price": "20000",
+        "description":"Alas de Hierro es la explosiva segunda entrega de la saga El Imperio de Onix, donde Violet Sorrengail enfrenta las consecuencias de las revelaciones que sacudieron Basgiath en Alas de Sangre. Tras descubrir la verdad oculta sobre el reino y los dragones, Violet y Xaden deben navegar una peligrosa red de secretos militares, traiciones políticas y amenazas sobrenaturales mientras su relación es puesta a prueba por lealtades encontradas. Yarros intensifica la acción, el drama romántico y los giros argumentales en esta secuela que expande el mundo de la saga, introduciendo nuevos peligros, poderes mágicos y revelaciones sobre la historia de Navarre y los venin. La novela explora temas de sacrificio, confianza rota y el costo de la verdad en una guerra donde nadie es completamente inocente.",
+        "image": "estilo/imagen_p60.png",
+        "category": "Literatura universal"
+      }
+
+  ]
+      
+      
+  
+ 
+  
+  
+ 
+ 
+                          
+                  
+                                
+                               
+                               
+       
+                       
+                      

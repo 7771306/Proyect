@@ -1,0 +1,139 @@
+<!--frontend/pages/admin.html-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin</title>
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+  
+    <header>
+        <a href="./admin.html"><img src="/estilo/logo.png" class="logo" alt="logo"></a>
+        
+        
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Buscar...">
+            <button type="submit" id="search-button">🔍</button>
+        </div>
+        <div id="contenedor-libros"></div>
+        <div class="user-actions">
+            <div class="cart-container">
+                <a href="#" id="carritoToggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+                
+                <div id="carritoContainer" class="carrito-popup" style="display: none;">
+  <h2>Tu Carrito</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Libro</th>
+        <th>Precio</th>
+        <th>Cant.</th>
+        <th>Subtotal</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody id="carritoTabla"></tbody>
+  </table>
+  <div class="total-section">
+    <h3>Total: $<span id="totalCarrito">0</span></h3>
+    <button id="confirmarBtn">Confirmar Compra</button>
+  </div>
+</div>
+            </div>
+
+
+
+            <div class="user-container" style="position: relative;">
+  <a href="#" id="personToggle">
+    <svg xmlns="http://www.w3.org/2000/svg" class="person" viewBox="0 0 16 16">
+      <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5M.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5m15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5"/>
+      <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+    </svg>
+  </a>
+  <div id="userDropdown" class="user-dropdown">
+    <button id="logoutBtn">Cerrar sesión</button>
+    <p>¡Gracias por tu visita!</p>
+  </div>
+</div>
+
+
+
+        </div>
+    <nav>
+        <ul>
+            <li><a href="/pages/Configuraciones.html">Configuraciones</a></li> 
+            
+        </ul>
+    </nav>
+    </header>
+            <div class="sidebar">
+            <img src="/estilo/logo+.png" class="log" alt="logo">
+        </div>
+    <div class="container">
+        <div class="main">
+            
+            <p class="p">¡Bienvenido, Admin! Muchas gracias por visitar tu página, elegida para publicar tus libros.<br><br>
+
+
+
+
+                
+
+Estimado administrador de letras en linea, espero que estés teniendo un excelente día.
+Me dirijo a ti para expresarte mi admiración por el trabajo que realizas para conectar a los 
+amantes de la lectura con nuevos títulos y autores en esta plataforma de venta de libros. 
+¡Mucha suerte en tus proyectos futuros!<br><br><br>
+
+
+¿En qué puedo ayudarte hoy?
+            </p>
+        </div>
+   </div>
+
+    
+    
+    <script src="/js/app.js"></script>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/userMenu.js"></script>
+
+
+
+  <script>
+    // Verificar sesión activa
+    document.addEventListener('DOMContentLoaded', () => {
+      const rol = localStorage.getItem('rol');
+
+      // Si no hay rol o no es admin, redirigir a index
+      if (!rol || rol !== 'admin') {
+        window.location.replace('/index.html');
+      }
+
+      // Evitar cargar desde caché cuando se usa el botón "Atrás"
+      window.addEventListener('pageshow', (event) => {
+        if (event.persisted || window.performance?.navigation.type === 2) {
+          window.location.reload();
+        }
+      });
+    });
+  </script>
+  <script>
+    document.getElementById('logoutBtn').addEventListener('click', () => {
+      // Limpiar sesión y redirigir reemplazando historial
+      localStorage.clear();
+      window.location.replace('/index.html');
+    });
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+   
+  
